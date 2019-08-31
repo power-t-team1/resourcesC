@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+<title>sode2html</title>
+<meta charset="UTF-8">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body style="background-color:lightgrey;">
+<pre>
+<span class="comment">/*
+Title		:WAP to print “Hello” in X format.
+Author 		:VIKAS A
+Date		:17/04/2018
+Description	:When the program is run, the provided string should be printed on the terminal in X formation
+*/</span>
+ <.>
+
+ MAXDIMENSION 
+ MINDIMENSION 
+ ()
+{
+	 , , C, ;
+	 ;
+	
+	{
+		(E     \H W\ . \);
+		(D: );
+		(%, &C);
+		 (C > MAXDIMENSION)
+		{
+			(C  N  \);
+			 ;
+		}
+		 (C < MINDIMENSION) 
+		{
+			(C  N  \);
+			 ;
+		}
+		 = C;
+
+		(C %  != )
+		{
+			C = C + ;
+		}
+
+		( =  ;  < C; ++ )
+		{
+			( = ;  < C; ++ )
+			{
+				( == C /  &&  %  !=  )
+				{
+					;
+				}
+				( ==  ||  == (C - ) -)
+				{
+					();
+				}
+				
+				{
+					(  ); <span class="comment">/*else space is printed*/</span>
+				}
+			}
+			<span class="comment">/* if actual lines was odd, then when the row is half of linecount then skip printing newline */</span>
+	( ==  /  &&  %  !=  )
+	{
+		;
+	}
+			
+			{
+				(\); <span class="comment">/*after every row, a new line*/</span>
+			}	
+		}
+
+		<span class="comment">/* check for continue */</span>
+		(C (/n): );
+		(\%, &);
+
+		 (  ==  )
+		{
+			;
+		} 
+		{
+			;
+		}
+
+	}  ();
+	 ;
+} 
+</pre>
+</body>
+</html>
